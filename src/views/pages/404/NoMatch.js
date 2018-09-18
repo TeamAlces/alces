@@ -11,7 +11,7 @@ class NoMatch extends Component {
         <Header/>
         <h1>404 - Page not found</h1>
         <br/>
-        <Link to="/dsd">Go home</Link>
+        <Link to="/">Go home</Link>
 
         <Footer/>
       </Container>

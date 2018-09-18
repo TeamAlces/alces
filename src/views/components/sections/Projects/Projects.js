@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Container from '../../../components/containers/Container';
-import { Grid } from 'react-flexbox-grid';
-
+import Section from '../../../components/containers/Section';
 
 import './Projects.css';
 
@@ -13,11 +11,9 @@ class Projects extends Component {
     
     render() {
       return (
-        <Container containerClass="Section">
-        <Grid>
+        <Section section="projects">
           <h1>Projects</h1>
-          </Grid>
-        </Container>
+        </Section>
       );
     }
   }

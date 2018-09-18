@@ -12,7 +12,7 @@ class Container extends Component {
   
   render() {
     return (
-    <Grid fluid className={this.props.containerClass || 'page'}>
+    <Grid fluid className={ this.props.containerClass || 'page' }>
       {this.props.children}
     </Grid>    
     );

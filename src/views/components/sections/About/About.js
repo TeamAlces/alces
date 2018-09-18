@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Container from '../../../components/containers/Container';
+import Section from '../../../components/containers/Section';
 
 import './About.css';
 
@@ -11,9 +11,9 @@ class About extends Component {
   
     render() {
       return (
-        <Container containerClass="Section">
+        <Section section='about'>
           <h1>About us</h1>
-        </Container>
+        </Section>
       );
     }
   }
