@@ -16,7 +16,7 @@ class Home extends Component {
     return (
       <Container>
         <Header/>
-        <h1>Alces</h1>
+          <h1>Alces</h1>
         <Footer/>
       </Container>
     );

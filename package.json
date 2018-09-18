@@ -1,22 +1,41 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "alces",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
   "dependencies": {
-    "babel": "^6.23.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "babel-loader": "^7.1.5",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-flexbox-grid": "^2.1.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "url-loader": "^1.1.1"
   },
   "devDependencies": {
-    "react-flexbox-grid": "^2.1.2"
-  }
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamAlces/companysite.git"
+  },
+  "author": "Petter Knutsson & Ruben Claësson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamAlces/companysite/issues"
+  },
+  "homepage": "https://github.com/TeamAlces/companysite#readme"
 }
