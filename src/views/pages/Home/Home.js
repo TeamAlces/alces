@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Footer from '../../components/containers/Footer';
 import Header from '../../components/containers/Header';
 import Container from '../../components/containers/Container';
+import About from '../../components/Sections/About/About';
+import Projects from '../../components/Sections/Projects/Projects';
+
+
 
 import '../../../Style/index.css';
 
@@ -16,7 +20,8 @@ class Home extends Component {
     return (
       <Container>
         <Header/>
-          <h1>Alces</h1>
+        <About/>
+        <Projects/>
         <Footer/>
       </Container>
     );

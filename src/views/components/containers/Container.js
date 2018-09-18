@@ -5,10 +5,15 @@ import './Container.css';
 
 
 class Container extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+  
   render() {
     return (
-    <Grid fluid>
-    {this.props.children}
+    <Grid fluid className={this.props.containerClass || 'page'}>
+      {this.props.children}
     </Grid>    
     );
   }
