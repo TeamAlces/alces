@@ -13,7 +13,7 @@ class Container extends Component {
   render() {
     return (
     <Grid fluid className={ this.props.containerClass || 'page' }>
-      {this.props.children}
+        {this.props.children}
     </Grid>    
     );
   }

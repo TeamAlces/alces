@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Footer from '../../components/containers/Footer';
-import Header from '../../components/containers/Header';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 import Container from '../../components/containers/Container';
 import { Link } from 'react-router-dom';
 

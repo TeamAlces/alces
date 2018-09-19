@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-flexbox-grid';
+import { Grid, Row } from 'react-flexbox-grid';
 
 import './Section.css';
 
@@ -12,9 +12,15 @@ class Section extends Component {
   
   render() {
     return (
-      <Grid className={this.props.section +' '+  'section'}>
-        {this.props.children}
-      </Grid>
+
+        <section className={this.props.section +' '+ 'section'}>
+          <Grid>
+            <Row center="xs">
+              {this.props.children}
+            </Row>
+          </Grid>
+        </section>
+
     );
   }
 }
