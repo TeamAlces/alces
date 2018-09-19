@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
           <Route component={NoMatch} />
         </Switch>
       </Router>
