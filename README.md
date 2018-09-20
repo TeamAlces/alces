@@ -11,3 +11,8 @@ This is an ongoing project.
 * Webpack dev server for development
 * Babel as JavaScript transpiler
 * NPM as package manager
+
+## Participators
+Currently working are:
+* [Petter Knutsson](https://github.com/pettrz "Petter Knutsson's profile")
+* [Ruben Claësson](https://github.com/Bubben98 "Ruben Claësson's profile")
