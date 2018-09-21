@@ -7,14 +7,14 @@ export default class Footer extends Component {
     return (
       <footer>
         <Grid fluid>
-          <Row between="xs">
-            <Col>
-              Col 1
+          <Row between="xs" center="md" >
+            <Col md={4}>
+              Team Alces &copy;
             </Col>
-            <Col>
+            <Col md={4}>
               Col 2
             </Col>
-            <Col>
+            <Col md={4}>
               Col 3
             </Col>
           </Row>

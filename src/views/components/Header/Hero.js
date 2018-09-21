@@ -7,9 +7,9 @@ export default class Hero extends Component {
   render() {
     return (
       <Grid className="hero">
-        <Row center="xs">
+        <Row>
           <Col md={4}>
-            <h1>Alces Development</h1>
+            <h1>Team Alces</h1>
           </Col>
         </Row>
       </Grid>
