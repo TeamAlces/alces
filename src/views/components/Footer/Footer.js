@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Col, Row, Grid } from 'react-flexbox-grid';
-
 import './Footer.css';
 
-class Footer extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <footer>
-        <Grid>
+        <Grid fluid>
           <Row between="xs">
             <Col>
               Col 1
@@ -24,5 +23,3 @@ class Footer extends Component {
     );
   }
 }
-
-export default Footer;

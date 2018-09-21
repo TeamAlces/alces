@@ -4,7 +4,7 @@ import { Grid, Row } from 'react-flexbox-grid';
 import './Section.css';
 
 
-class Section extends Component {
+export default class Section extends Component {
 
   constructor(props) {
     super(props);
@@ -24,5 +24,3 @@ class Section extends Component {
     );
   }
 }
-
-export default Section;

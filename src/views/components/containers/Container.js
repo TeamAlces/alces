@@ -4,7 +4,7 @@ import { Grid } from 'react-flexbox-grid';
 import './Container.css';
 
 
-class Container extends Component {
+export default class Container extends Component {
 
   constructor(props) {
     super(props);
@@ -18,5 +18,3 @@ class Container extends Component {
     );
   }
 }
-
-export default Container;

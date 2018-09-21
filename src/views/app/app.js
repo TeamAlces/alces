@@ -3,10 +3,7 @@ import Home from '../pages/Home/Home';
 import NoMatch from '../pages/404/NoMatch';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-
-
-
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <Router>
@@ -18,7 +15,4 @@ class App extends Component {
     );
   }
 }
-
-
-export default App;
 

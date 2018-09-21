@@ -5,13 +5,9 @@ import Container from '../../components/containers/Container';
 import About from '../../components/Sections/About/About';
 import Projects from '../../components/Sections/Projects/Projects';
 
-
-
 import '../../../Style/index.css';
 
-
-
-class Home extends Component {
+export default class Home extends Component {
 
   constructor(props) {
     super(props);
@@ -31,7 +27,5 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;
 
 

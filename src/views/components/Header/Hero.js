@@ -3,7 +3,7 @@ import { Col, Row, Grid } from 'react-flexbox-grid';
 import './Hero.css';
 
 
-class Hero extends Component {
+export default class Hero extends Component {
   render() {
     return (
       <Grid className="hero">
@@ -16,5 +16,3 @@ class Hero extends Component {
     );
   }
 }
-
-export default Hero;

@@ -4,7 +4,6 @@
   "description": "Portfolio",
   "main": "index.js",
   "dependencies": {
-    "babel-loader": "^7.1.5",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-flexbox-grid": "^2.1.2",
@@ -13,6 +12,7 @@
     "url-loader": "^1.1.1"
   },
   "devDependencies": {
+    "babel-loader": "^7.1.5",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",

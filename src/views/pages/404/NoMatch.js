@@ -4,7 +4,7 @@ import Header from '../../components/Header/Header';
 import Container from '../../components/containers/Container';
 import { Link } from 'react-router-dom';
 
-class NoMatch extends Component {
+export default class NoMatch extends Component {
   render() {
     return (
       <Container>
@@ -18,6 +18,4 @@ class NoMatch extends Component {
     );
   }
 }
-
-export default NoMatch;
 

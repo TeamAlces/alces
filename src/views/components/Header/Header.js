@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 import './Header.css';
 
 
-class Header extends Component {
+export default class Header extends Component {
 
   constructor(props) {
     super(props);
@@ -20,5 +20,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;
