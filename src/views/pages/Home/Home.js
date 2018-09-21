@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header';
 import Container from '../../components/containers/Container';
 import About from '../../components/Sections/About/About';
 import Projects from '../../components/Sections/Projects/Projects';
+import Contact from '../../components/Sections/Contact/Contact';
 
 import '../../../Style/index.css';
 
@@ -19,8 +20,7 @@ export default class Home extends Component {
           <Header/>
             <About/>  
             <Projects/>
-            <About/>
-            <Projects/>
+            <Contact/>
           <Footer/>
         
       </Container>
