@@ -8,14 +8,13 @@ export default class NoMatch extends Component {
   render() {
     return (
       <Container>
-        <Header/>
+        <Header />
         <h1>404 - Page not found</h1>
-        <br/>
+        <br />
         <Link to="/">Go home</Link>
 
-        <Footer/>
+        <Footer />
       </Container>
     );
   }
 }
-

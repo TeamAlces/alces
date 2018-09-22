@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Col, Row, Grid } from 'react-flexbox-grid';
 import './Hero.css';
 
-
 export default class Hero extends Component {
   render() {
     return (

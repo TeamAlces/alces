@@ -9,23 +9,18 @@ import Contact from '../../components/Sections/Contact/Contact';
 import '../../../Style/index.css';
 
 export default class Home extends Component {
-
   constructor(props) {
     super(props);
   }
   render() {
     return (
       <Container>
-        
-          <Header/>
-            <About/>  
-            <Projects/>
-            <Contact/>
-          <Footer/>
-        
+        <Header />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
       </Container>
     );
   }
 }
-
-

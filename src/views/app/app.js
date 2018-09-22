@@ -8,11 +8,10 @@ export default class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path="/" component={Home} />
           <Route component={NoMatch} />
         </Switch>
       </Router>
     );
   }
 }
-
