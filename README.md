@@ -10,6 +10,7 @@ This is an ongoing project.
 * Webpack for bundling code
 * Webpack dev server for development
 * Babel as JavaScript transpiler
+* Prettier and ESLint for code formatting
 * NPM as package manager
 
 ## Authors
