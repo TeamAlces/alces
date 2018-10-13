@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -10,16 +12,25 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-            loader: 'babel-loader'
+          loader: 'babel-loader'
         }
       }, {
         test: /\.css$/,
-        use: ['style-loader','css-loader']
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader',
+        })
       }, {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(scss|sass)$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader!sass-loader',
+        })
+      }, {
+        test: /\.(png|jpg|gif|svg)$/,
         use: [
           {
             loader: 'url-loader',
@@ -41,12 +52,19 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+    minimizer: [new UglifyJsPlugin()]
+  },
   devServer: {
     historyApiFallback: true
   },
   plugins: [
-      new HtmlWebpackPlugin({
-          template: './public/index.html'
-      })
+    new UglifyJsPlugin({
+      sourceMap: true
+    }),
+    new ExtractTextPlugin("styles.css"),
+    new HtmlWebpackPlugin({
+        template: './public/index.html'
+    })
   ]
 }
