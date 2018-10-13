@@ -11,6 +11,7 @@ This is an ongoing project.
 * Webpack dev server for development
 * Babel as JavaScript transpiler
 * Prettier and ESLint for code formatting
+* SCSS/SASS as preprocessor of CSS
 * NPM as package manager
 
 ## Authors
