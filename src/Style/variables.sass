@@ -1,0 +1,73 @@
+/* Font variables */
+
+@font-face
+  font-family: "Lato-Regular"
+  src: url('../assets/fonts/Lato-Regular.ttf')
+  
+$font-lato: "Lato-Regular", sans-serif
+
+
+/* Placeholder classes */
+%flex
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+
+
+=appearance($appearance)
+    -webkit-appearance: $appearance
+       -moz-appearance: $appearance
+            appearance: $appearance
+
+
+=transition($transition)
+    -webkit-transition: $transition
+       -moz-transition: $transition
+         -o-transition: $transition
+            transition: $transition
+
+
+=transform($transform)
+    -webkit-transform: $transform
+       -moz-transform: $transform
+        -ms-transform: $transform
+         -o-transform: $transform
+            transform: $transform
+
+
+/* Flexbox mixins */
+=justify-content($justify)
+    -webkit-justify-content: $justify
+       -moz-justify-content: $justify
+        -ms-justify-content: $justify
+            justify-content: $justify
+              -ms-flex-pack: $justify
+
+=flex-direction($direction)
+    -webkit-flex-direction: $direction
+       -moz-flex-direction: $direction
+        -ms-flex-direction: $direction
+            flex-direction: $direction
+
+=align-content($align)
+    -webkit-align-content: $align
+       -moz-align-content: $align
+        -ms-align-content: $align
+            align-content: $align
+
+=align-items($align)
+    -webkit-align-items: $align
+      -webkit-box-align: $align
+       -moz-align-items: $align
+        -ms-align-items: $align
+            align-items: $align
+
+=align-self($align)
+    -webkit-align-self: $align
+       -moz-align-self: $align
+        -ms-align-self: $align
+            align-self: $align
+            
+
