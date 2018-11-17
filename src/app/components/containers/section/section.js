@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
 import { Grid, Row } from "react-flexbox-grid";
 
 import "./section.sass";
 
-export default class Section extends Component {
+class Section extends Component {
   constructor(props) {
     super(props);
   }
@@ -21,3 +22,11 @@ export default class Section extends Component {
     );
   }
 }
+
+export default Section;
+
+Section.propTypes = {
+  section: PropTypes.oneOf([
+    'about', 'contact', 'projects'
+  ]).isRequired
+};

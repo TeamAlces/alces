@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Grid } from "react-flexbox-grid";
+import PropTypes from 'prop-types';
 
 import "./container.sass";
 
-export default class Container extends Component {
+class Container extends Component {
   constructor(props) {
     super(props);
   }
@@ -16,3 +17,9 @@ export default class Container extends Component {
     );
   }
 }
+
+export default Container;
+
+Container.propTypes = {
+  containerClass: PropTypes.string
+};
