@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
-import Container from '../../components/containers/container/Container';
-import About from './components/sections/about/about';
-import Projects from './components/sections/projects/Projects';
-import Contact from './components/sections/contact/contact';
+import React, { Component } from "react";
+import Footer from "../../components/footer/footer";
+import Header from "../../components/header/header";
+import Container from "../../components/containers/container/container";
+import About from "./components/sections/about/about";
+import Projects from "./components/sections/projects/projects";
+import Contact from "./components/sections/contact/contact";
 
-import '../../../Style/index.css';
+import "./home.sass";
 
 export default class Home extends Component {
   constructor(props) {

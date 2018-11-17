@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Section from '../../../../../components/containers/section/section';
+import React, { Component } from "react";
+import Section from "../../../../../components/containers/section/section";
 
-import './Contact.css';
+import "./contact.sass";
 
-class Contact extends Component {
+export default class Contact extends Component {
   constructor(props) {
     super(props);
   }
@@ -16,5 +16,3 @@ class Contact extends Component {
     );
   }
 }
-
-export default Contact;

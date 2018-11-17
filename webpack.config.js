@@ -62,9 +62,9 @@ module.exports = {
     new UglifyJsPlugin({
       sourceMap: true
     }),
-    new ExtractTextPlugin("styles.css"),
+    new ExtractTextPlugin("style.css"),
     new HtmlWebpackPlugin({
-        template: './public/index.html'
+      template: './public/index.html'
     })
   ]
 }

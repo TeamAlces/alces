@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Grid, Row } from 'react-flexbox-grid';
+import React, { Component } from "react";
+import { Grid, Row } from "react-flexbox-grid";
 
-import './Section.css';
+import "./section.sass";
 
 export default class Section extends Component {
   constructor(props) {
@@ -10,7 +10,10 @@ export default class Section extends Component {
 
   render() {
     return (
-      <section className={this.props.section + ' ' + 'section'}>
+      <section
+        id={this.props.section}
+        className={this.props.section + " " + "section"}
+      >
         <Grid>
           <Row center="xs">{this.props.children}</Row>
         </Grid>

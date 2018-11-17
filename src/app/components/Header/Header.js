@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Hero from './components/hero/Hero';
-import Navbar from './components/navbar/Navbar';
+import React, { Component } from "react";
+import Hero from "./components/hero/hero";
+import Navbar from "./components/navbar/navbar";
 
-import './Header.css';
+import "./header.sass";
 
 export default class Header extends Component {
   constructor(props) {

@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import { Col, Row, Grid } from 'react-flexbox-grid';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React, { Component } from "react";
+import { Col, Row, Grid } from "react-flexbox-grid";
+import { Link } from "react-router-dom";
+
+import "./navbar.sass";
 
 export default class Navbar extends Component {
   render() {
@@ -15,13 +16,13 @@ export default class Navbar extends Component {
             <Col>
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#">Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="#about">About</a>
                 </li>
               </ul>
             </Col>

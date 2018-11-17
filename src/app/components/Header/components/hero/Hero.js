@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Col, Row, Grid } from 'react-flexbox-grid';
-import './Hero.css';
+import React, { Component } from "react";
+import { Col, Row, Grid } from "react-flexbox-grid";
+
+import "./hero.sass";
 
 export default class Hero extends Component {
   render() {

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Section from '../../../../../components/containers/section/section';
+import React, { Component } from "react";
+import Section from "../../../../../components/containers/section/section";
 
-import './Projects.css';
+import "./projects.sass";
 
 class Projects extends Component {
   constructor(props) {

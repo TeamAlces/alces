@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Col, Row, Grid } from 'react-flexbox-grid';
-import './Footer.sass';
+import React, { Component } from "react";
+import { Col, Row, Grid } from "react-flexbox-grid";
+
+import "./footer.sass";
 
 export default class Footer extends Component {
   render() {
@@ -8,21 +9,25 @@ export default class Footer extends Component {
       <footer>
         <Grid fluid>
           <Row between="xs" center="md">
-          <Col md={4}><p>Copyright &copy; Team Alces</p></Col>
-            <Col md={4}><p>LOGO</p></Col>
             <Col md={4}>
-            <ul>
+              <p>Copyright &copy; Team Alces</p>
+            </Col>
+            <Col md={4}>
+              <p>LOGO</p>
+            </Col>
+            <Col md={4}>
+              <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                 <a href="#">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#">Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </Col>
