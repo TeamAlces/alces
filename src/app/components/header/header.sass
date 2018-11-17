@@ -11,8 +11,13 @@ header
   background-repeat: no-repeat
   background-attachment: fixed
 
-  svg
+  .hero-navigate
     position: absolute
     bottom: 20px
     margin: 0 auto
+    cursor: pointer
+    +transition(all 200ms)
+
+    &:hover
+      +transform(scale(1.1))
 

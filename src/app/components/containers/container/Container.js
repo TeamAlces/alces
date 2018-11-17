@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid } from "react-flexbox-grid";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 import "./container.sass";
 

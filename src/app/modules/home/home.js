@@ -6,6 +6,7 @@ import About from "./components/sections/about/about";
 import Projects from "./components/sections/projects/projects";
 import Contact from "./components/sections/contact/contact";
 
+
 import "./home.sass";
 
 export default class Home extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Grid } from "react-flexbox-grid";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 import "./navbar.sass";
 
@@ -16,7 +16,7 @@ export default class Navbar extends Component {
             <Col>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <a href="#projects">Projects</a>

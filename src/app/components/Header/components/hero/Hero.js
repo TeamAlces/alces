@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Grid } from "react-flexbox-grid";
-
+import Zoom from 'react-reveal';
 import "./hero.sass";
 
 export default class Hero extends Component {
@@ -9,7 +9,9 @@ export default class Hero extends Component {
       <Grid className="hero">
         <Row>
           <Col md={4}>
-            <h1>Team Alces</h1>
+            <Zoom>
+              <h1>Team Alces</h1>
+            </Zoom>
           </Col>
         </Row>
       </Grid>
