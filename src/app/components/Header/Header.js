@@ -15,7 +15,9 @@ export default class Header extends Component {
       <header>
         <Navbar />
         <Hero />
-        <a href="#about" className="hero-navigate"><FontAwesomeIcon icon="angle-double-down" size="2x"/></a>
+        <a href="#about" className="hero-navigate">
+          <FontAwesomeIcon icon="angle-double-down" size="2x" />
+        </a>
       </header>
     );
   }

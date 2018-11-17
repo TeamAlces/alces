@@ -1,0 +1,24 @@
+@import '../../../../../../../Style/variables.sass'
+
+
+
+.project
+  padding: 20px
+
+  &-info
+    
+    @extend %flex
+    +flex-direction(column)
+    +justify-content(space-between)
+
+  &-preview
+
+    &--box
+      background-color: $dark-blue
+      height: 100%
+      border-radius: 6px
+  
+  &:nth-child(even)
+    .project-preview
+      order: -1
+      

@@ -3,18 +3,12 @@ import Section from "../../../../../components/containers/section/section";
 
 import "./about.sass";
 
-class About extends Component {
+export default class About extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return (
-      <Section section="about">
-        <h1>About us</h1>
-      </Section>
-    );
+    return <Section section="about" />;
   }
 }
-
-export default About;

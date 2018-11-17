@@ -11,12 +11,13 @@ class Section extends Component {
 
   render() {
     return (
-      <section
-        id={this.props.section}
-        className={this.props.section + " " + "section"}
-      >
+      <section id={this.props.section} className={this.props.section}>
         <Grid>
-          <Row center="xs">{this.props.children}</Row>
+          <Row center="xs" className="section-title">
+            <h1>{this.props.section}</h1>
+          </Row>
+
+          {this.props.children}
         </Grid>
       </section>
     );

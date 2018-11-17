@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Grid } from "react-flexbox-grid";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import "./navbar.sass";
 

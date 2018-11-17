@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Grid } from "react-flexbox-grid";
-import Zoom from 'react-reveal';
+import Zoom from "react-reveal";
 import "./hero.sass";
 
 export default class Hero extends Component {
