@@ -8,7 +8,7 @@ This is an ongoing project. Fot latest version, check 'development' branch.
 * JavaScript as programming language
 * ReactJS for view-rendering
 * Webpack for bundling code
-* Webpack dev server for development
+* Webpack-dev-server for development
 * Babel as JavaScript transpiler
 * Prettier and ESLint for code formatting
 * SCSS/SASS as preprocessor of CSS
