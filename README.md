@@ -14,6 +14,12 @@ This is an ongoing project. Fot latest version, check 'development' branch.
 * SCSS/SASS as preprocessor of CSS
 * NPM as package manager
 
+## How to run
+Clone project
+CMD `npm install`
+CMD `npm run start`
+
+
 ## Authors
 * [Petter Knutsson](https://github.com/pettrz "Petter Knutsson's profile")
 * [Ruben Claësson](https://github.com/Bubben98 "Ruben Claësson's profile")
