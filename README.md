@@ -15,9 +15,9 @@ This is an ongoing project. Fot latest version, check 'development' branch.
 * NPM as package manager
 
 ## How to run
-Clone project
-CMD `npm install`
-CMD `npm run start`
+1. Clone project
+2. CMD `npm install`
+3. CMD `npm run start`
 
 
 ## Authors
